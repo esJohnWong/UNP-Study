@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="chapter01">
+      <UniqueIdentifier>{cba64f22-e00b-459e-8da9-12fd4014fa72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="chapter02">
+      <UniqueIdentifier>{e065bbf3-9915-4882-8b8f-37d3ad01e996}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="chapter05">
+      <UniqueIdentifier>{aa8a1cfc-6005-40db-be71-7e5fb2ea3f66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="chapter06">
+      <UniqueIdentifier>{6055c4cb-cbea-4129-80f7-9433203e9e8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="chapter08">
+      <UniqueIdentifier>{ae5c67f0-facf-4f4c-9b59-51e8421e2775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="chapter09">
+      <UniqueIdentifier>{ab2f58b3-a507-46b3-baf2-b730187b45ca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="daytimetcpcli.cpp">
+      <Filter>chapter01</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="daytimetcpserv.cpp">
+      <Filter>chapter01</Filter>
+    </ClCompile>
+    <ClCompile Include="socklib.cpp">
+      <Filter>chapter02</Filter>
+    </ClCompile>
+    <ClCompile Include="tcpserv01.cpp">
+      <Filter>chapter05</Filter>
+    </ClCompile>
+    <ClCompile Include="strcliserv.cpp">
+      <Filter>chapter06</Filter>
+    </ClCompile>
+    <ClCompile Include="mulitselectserv.cpp">
+      <Filter>chapter06</Filter>
+    </ClCompile>
+    <ClCompile Include="tcppoll.cpp">
+      <Filter>chapter06</Filter>
+    </ClCompile>
+    <ClCompile Include="epollserv.cpp">
+      <Filter>chapter06</Filter>
+    </ClCompile>
+    <ClCompile Include="echoudp.cpp">
+      <Filter>chapter08</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter09.cpp">
+      <Filter>chapter09</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="daytimetcpcli.h">
+      <Filter>chapter01</Filter>
+    </ClInclude>
+    <ClInclude Include="daytimetcpserv.h">
+      <Filter>chapter01</Filter>
+    </ClInclude>
+    <ClInclude Include="socklib.h">
+      <Filter>chapter02</Filter>
+    </ClInclude>
+    <ClInclude Include="tcpserv01.h">
+      <Filter>chapter05</Filter>
+    </ClInclude>
+    <ClInclude Include="strcliserv.h">
+      <Filter>chapter06</Filter>
+    </ClInclude>
+    <ClInclude Include="mulitselectserv.h">
+      <Filter>chapter06</Filter>
+    </ClInclude>
+    <ClInclude Include="tcppoll.h">
+      <Filter>chapter06</Filter>
+    </ClInclude>
+    <ClInclude Include="epollserv.h">
+      <Filter>chapter06</Filter>
+    </ClInclude>
+    <ClInclude Include="echoudp.h">
+      <Filter>chapter08</Filter>
+    </ClInclude>
+    <ClInclude Include="chapter09.h">
+      <Filter>chapter09</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
